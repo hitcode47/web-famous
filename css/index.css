@@ -1,0 +1,29 @@
+@import url(../css/header.css);
+@import url(../css/game.css);
+@import url(../css/premio.css);
+@import url(../css/contemplados_e_infomacao.css);
+
+:root{
+    --cor-de-fundo: #120E29;
+    --cor-de-fundo-game-e-contemplados: #D9D9D9;
+    --cor-de-fundo-informativo: #002F52;
+    --cor-de-texto-rodape: #FFFFFF;
+}
+* {
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: var(--cor-de-fundo);
+    height: 100vh;
+    display: grid;
+    grid-template-areas:
+    'header'
+    'game'
+    'premios'
+    'contemplados'
+    'notaIformativa'
+    'footer';
+    grid-template-rows: 50px 350px 465px 250px 115px 120px;
+}
+

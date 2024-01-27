@@ -1,0 +1,20 @@
+.footer{
+    display: grid;
+    grid-area: footer;
+    text-align: center;
+    align-items: center;
+}
+.links{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.rodape_link{
+    text-decoration: none;
+    color: var(--cor-de-texto-rodape)
+}
+.rodape_texto{
+    text-decoration: none;
+    color: var(--cor-de-texto-rodape);
+    font-size: 15px;   
+}

@@ -1,0 +1,26 @@
+.contemplados{
+    grid-area: contemplados;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    background-color: var(--cor-de-fundo-game-e-contemplados);
+}
+.litas_contemplados{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60%;
+    width: 60%;
+    border: solid 1px var(--cor-de-fundo-informativo);
+    gap: 30px;
+}
+.nota_informativa{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    gap: 10px;
+    grid-area: notaIformativa;
+    background-color: var(--cor-de-fundo-informativo);
+}
